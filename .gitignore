@@ -1,0 +1,54 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Datasets and experiment outputs
+/data/
+/dataset/
+/checkpoints/
+/results/
+/test_results/
+/logs/
+/efficiency_results/
+/runs/
+/wandb/
+*.log
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary files and local research materials
+*.tmp
+*.bak
+/tmp/
+/tmp_*
+/ablation/
+/.paper_review/
+/abstract_review_*/
+/final_full_audit/
+/latest_final_check/
+/latest_name_audit/
